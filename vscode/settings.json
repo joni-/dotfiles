@@ -1,0 +1,16 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Monaco, Menlo, 'Courier New', monospace",
+    "editor.fontSize": 14,
+    "editor.rulers": [80],
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.selectionHighlight": false,
+    "javascript.validate.enable": false,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "window.zoomLevel": 0,
+    "editor.lineNumbers": "on",
+    "workbench.colorTheme": "Monokai Dimmed",
+    "vim.disableAnnoyingNeovimMessage": true
+  }
