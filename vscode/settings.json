@@ -12,5 +12,6 @@
     "window.zoomLevel": 0,
     "editor.lineNumbers": "on",
     "workbench.colorTheme": "Monokai Dimmed",
-    "vim.disableAnnoyingNeovimMessage": true
+    "vim.disableAnnoyingNeovimMessage": true,
+    "typescript.check.npmIsInstalled": false
   }
