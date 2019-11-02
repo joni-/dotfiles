@@ -9,3 +9,9 @@ set expandtab
 
 set clipboard=unnamedplus
 set mouse=a
+
+" toggle invisible characters
+set list
+set listchars=tab:→\ ,trail:⋅,extends:❯,precedes:❮,nbsp:·
+set showbreak=↪
+
