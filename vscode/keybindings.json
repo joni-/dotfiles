@@ -36,5 +36,42 @@
     {
         "key": "cmd+l",
         "command": "editor.action.transformToLowercase"
+    },
+    {
+        "key": "cmd+r",
+        "command": "clojureVSCode.eval"
+    },
+    {
+        "key": "shift+cmd+r",
+        "command": "clojureVSCode.evalAndShowResult"
+    },
+    {
+        "key": "alt+cmd+m",
+        "command": "editor.emmet.action.matchTag"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "f12",
+        "command": "-editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-cursorLeft",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "shift+alt+7",
+        "command": "-fsi.SendLine",
+        "when": "editorFocus && !findWidgetVisible && editorLangId == 'fsharp'"
+    },
+    {
+        "key": "shift+alt+7",
+        "command": "-elm.replSendLine",
+        "when": "editorFocus && !findWidgetVisible && editorLangId == 'elm'"
     }
 ]
