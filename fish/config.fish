@@ -1,5 +1,8 @@
 . ~/.config/fish/aliases.fish
 
-set -g fish_user_paths "/Users/joni/Library/Python/3.8/bin" $fish_user_paths
+fish_add_path /Users/joni/.local/bin/
+fish_add_path /usr/local/opt/libpq/bin/
 set -x NVM_DIR $HOME/.nvm
 set -x EDITOR vi
+set -x SAM_CLI_TELEMETRY 0
+
