@@ -7,7 +7,7 @@ set softtabstop=2
 set smarttab
 set expandtab
 
-set clipboard=unnamedplus
+set clipboard=unnamed
 set mouse=a
 
 " toggle invisible characters
