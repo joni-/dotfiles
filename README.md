@@ -6,4 +6,8 @@ ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
 
 ln -s ~/dotfiles/fish/aliases.fish  ~/.config/fish/aliases.fish
 ln -s ~/dotfiles/fish/config.fish  ~/.config/fish/config.fish
+
+ln -s ~/dotfiles/tmux/.tmux.conf  ~/.tmux.conf
+
+ln -s ~/dotfiles/.psqlrc  ~/.psqlrc
 ```
