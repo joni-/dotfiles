@@ -1,13 +1,5 @@
-```
-ln -s ~/dotfiles/vscode/settings.json  ~/Library/Application\ Support/Code/User/settings.json
-ln -s ~/dotfiles/vscode/keybindings.json  ~/Library/Application\ Support/Code/User/keybindings.json
+# My dotfiles
 
-ln -s ~/dotfiles/vim/.vimrc ~/.vimrc
+`./setup.sh` runs the installer. Note that it may destroy existing files while it creates symbolic links.
 
-ln -s ~/dotfiles/fish/aliases.fish  ~/.config/fish/aliases.fish
-ln -s ~/dotfiles/fish/config.fish  ~/.config/fish/config.fish
-
-ln -s ~/dotfiles/tmux/.tmux.conf  ~/.tmux.conf
-
-ln -s ~/dotfiles/.psqlrc  ~/.psqlrc
-```
+Visual Studio Code settings are synced using it's sync settings feature.
