@@ -1,5 +1,16 @@
 #!/bin/bash
 
+is_osx=false
+
+if [[ $OSTYPE == 'darwin'* ]]; then
+    is_osx=true
+fi
+
+if [ $is_osx == true ]; then
+    brew update
+    brew install fish bat tldr git curl wget httpie tree htop
+fi
+
 WORKING_DIR=$(pwd)
 
 ln -sf $WORKING_DIR/vim/.vimrc ~/.vimrc
