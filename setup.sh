@@ -8,7 +8,7 @@ fi
 
 if [ $is_osx == true ]; then
     brew update
-    brew install fish bat tldr git curl wget httpie tree htop
+    brew install iterm2 fish bat tldr git curl wget httpie tree htop
 fi
 
 WORKING_DIR=$(pwd)
