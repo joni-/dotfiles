@@ -24,7 +24,7 @@ Visual Studio Code settings are synced using it's sync settings feature.
 - Keyboard
   - Modifier keys: Capslock to ESC
   - ctrl + number: switch between spaces
-  - Shortcuts: move focus between windows <ctrl>+=
+  - Shortcuts: move focus between windows \<ctrl>+=
 - Accessibility
   - Display -> reduce motion
 - Dock
