@@ -29,3 +29,8 @@ Visual Studio Code settings are synced using it's sync settings feature.
   - Display -> reduce motion
 - Dock
   - Disable "show recent apps in the dock"
+
+## iTerm2
+
+- CMD+i -> Colors -> Color Presets -> Tango Dark
+- Preferences -> Profiles -> Default -> Keys -> Key Mappings -> Presets.. -> Natural Text Editing
