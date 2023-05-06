@@ -9,6 +9,7 @@ fi
 if [ $is_osx == true ]; then
     brew update
     brew install iterm2 fish bat tldr git curl wget httpie tree htop
+    brew install --cask flux
 fi
 
 WORKING_DIR=$(pwd)
