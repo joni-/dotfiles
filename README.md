@@ -13,6 +13,7 @@ Visual Studio Code settings are synced using it's sync settings feature.
 - Authy
 - Obsidian
 - Slack
+- Contexts
 
 ## OSX Settings
 
@@ -34,3 +35,11 @@ Visual Studio Code settings are synced using it's sync settings feature.
 
 - CMD+i -> Colors -> Color Presets -> Tango Dark
 - Preferences -> Profiles -> Default -> Keys -> Key Mappings -> Presets.. -> Natural Text Editing
+
+## Contexts
+
+- Rules -> Apps not to show -> Finder
+- Command-Tab
+  - Command-Tab -> Show windows from -> All spaces
+  - Option-Tab -> Show windows from -> Current space
+- Sidebar -> Show sidebar on -> No display
