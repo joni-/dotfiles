@@ -9,6 +9,7 @@ set -x NVM_DIR $HOME/.nvm
 set -x EDITOR vi
 set -x SAM_CLI_TELEMETRY 0
 set -x PYENV_ROOT $HOME/.pyenv
+set -x HOMEBREW_NO_ANALYTICS 1
 
 if test -e ~/.config/fish/config.local.fish
     . ~/.config/fish/config.local.fish
