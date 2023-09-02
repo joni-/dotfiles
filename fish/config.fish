@@ -5,6 +5,7 @@ fish_add_path /usr/local/opt/libpq/bin/
 fish_add_path $HOME/.cargo/bin
 fish_add_path /opt/homebrew/bin
 fish_add_path $HOME/Library/Python/3.9/bin/
+fish_add_path $HOME/.docker/bin
 set -x NVM_DIR $HOME/.nvm
 set -x EDITOR vi
 set -x SAM_CLI_TELEMETRY 0
