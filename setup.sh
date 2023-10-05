@@ -14,6 +14,8 @@ fi
 
 WORKING_DIR=$(pwd)
 
+mkdir -p ~/.config/fish
+
 ln -sf $WORKING_DIR/vim/.vimrc ~/.vimrc
 ln -sf $WORKING_DIR/fish/aliases.fish  ~/.config/fish/aliases.fish
 ln -sf $WORKING_DIR/fish/config.fish  ~/.config/fish/config.fish
