@@ -12,6 +12,15 @@ if [ $is_osx == true ]; then
     brew install --cask flux
 fi
 
+# todo: check if ubuntu
+# 
+#sudo add-apt-repository ppa:git-core/ppa
+#sudo add-apt-repository ppa:fish-shell/release-3
+#
+#sudo apt update
+#
+#sudo apt install -y git fish bat
+
 WORKING_DIR=$(pwd)
 
 mkdir -p ~/.config/fish
