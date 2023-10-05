@@ -1,4 +1,11 @@
-alias cat=bat
+if type -q bat
+  alias cat=bat
+end
+
+if type -q batcat
+  alias cat=batcat
+end
+
 alias preview="fd --type f | fzf --preview 'bat --color \"always\" {}'"
 alias help=tldr
 
