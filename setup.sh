@@ -13,7 +13,7 @@ if [ $is_osx == true ]; then
 fi
 
 # todo: check if ubuntu
-# 
+#
 #sudo add-apt-repository ppa:git-core/ppa
 #sudo add-apt-repository ppa:fish-shell/release-3
 #
@@ -36,3 +36,5 @@ ln -sf $WORKING_DIR/.psqlrc  ~/.psqlrc
 
 git config --global user.name "Joni Nevalainen"
 git config --global user.email "joninevalainen@gmail.com"
+git config --global pull.rebase true
+git config --global pull.ff only
