@@ -28,6 +28,10 @@ if [ $is_linux == true ]; then
     sudo apt install -y fish bat tldr git curl wget httpie tree htop jq jo
 fi
 
+if [[ $SHELL != *'/fish' ]]; then
+    echo "Remember to set default shell to fish: https://fishshell.com/docs/current/index.html#default-shell"
+fi
+
 WORKING_DIR=$(pwd)
 
 mkdir -p ~/.config/fish
