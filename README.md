@@ -3,6 +3,7 @@
 `./setup.sh` runs the installer. Note that it may destroy existing files while it creates symbolic links.
 
 Visual Studio Code settings are synced using it's sync settings feature.
+[./vscode/](./vscode/) contains a snapshot of the settings but may not be the latest.
 
 ## Other tools to install:
 
