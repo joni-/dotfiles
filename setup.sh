@@ -1,9 +1,14 @@
 #!/bin/bash
 
 is_osx=false
+is_linux=false
 
 if [[ $OSTYPE == 'darwin'* ]]; then
     is_osx=true
+fi
+
+if [[ $OSTYPE == 'linux'* ]]; then
+    is_linux=true
 fi
 
 if [ $is_osx == true ]; then
@@ -17,9 +22,11 @@ fi
 #sudo add-apt-repository ppa:git-core/ppa
 #sudo add-apt-repository ppa:fish-shell/release-3
 #
-#sudo apt update
-#
-#sudo apt install -y git fish bat
+
+if [ $is_linux == true ]; then
+    sudo apt update
+    sudo apt install -y fish bat tldr git curl wget httpie tree htop jq jo
+fi
 
 WORKING_DIR=$(pwd)
 
