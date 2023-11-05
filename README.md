@@ -15,6 +15,7 @@ Visual Studio Code settings are synced using it's sync settings feature.
 - Obsidian
 - Slack
 - Contexts
+- [Shush!](https://mizage.com/shush/)
 
 ## OSX Settings
 
