@@ -19,3 +19,4 @@ alias gds="git diff --staged"
 
 alias c="clear"
 
+alias k="kubectl"
