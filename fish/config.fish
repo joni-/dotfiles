@@ -12,6 +12,10 @@ set -x SAM_CLI_TELEMETRY 0
 set -x PYENV_ROOT $HOME/.pyenv
 set -x HOMEBREW_NO_ANALYTICS 1
 
+if test (uname) = Linux
+    setxkbmap -option caps:escape
+end
+
 if test -e ~/.config/fish/config.local.fish
     . ~/.config/fish/config.local.fish
 end
