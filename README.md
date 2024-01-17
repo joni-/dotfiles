@@ -14,8 +14,9 @@ Visual Studio Code settings are synced using it's sync settings feature.
 - Authy
 - Obsidian
 - Slack
-- Contexts
+- [Contexts](https://contexts.co/)
 - [Shush!](https://mizage.com/shush/)
+- [Rectangle](https://rectangleapp.com/)
 
 ## OSX Settings
 
