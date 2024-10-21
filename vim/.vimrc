@@ -6,6 +6,7 @@ set shiftwidth=2
 set softtabstop=2
 set smarttab
 set expandtab
+set relativenumber
 
 set clipboard=unnamed
 set mouse=a
