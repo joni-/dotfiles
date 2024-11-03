@@ -12,6 +12,16 @@ set -x SAM_CLI_TELEMETRY 0
 set -x PYENV_ROOT $HOME/.pyenv
 set -x HOMEBREW_NO_ANALYTICS 1
 
+# fish bindings for fzf (ctrl+t, ctrl+r, opt+c)
+# https://github.com/junegunn/fzf?tab=readme-ov-file#key-bindings-for-command-line
+fzf --fish | source
+
+# Preview file content using bat (https://github.com/sharkdp/bat)
+set -x FZF_CTRL_T_OPTS "
+  --walker-skip .git,node_modules,target,build
+  --preview 'bat -n --color=always {}'
+  --bind 'ctrl-/:change-preview-window(down|hidden|)'"
+
 if test (uname) = Linux
     setxkbmap -option caps:escape
 end
