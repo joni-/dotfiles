@@ -17,6 +17,8 @@ alias gl="git log"
 alias gd="git diff"
 alias gds="git diff --staged"
 
+alias gp="git-preview"
+
 alias c="clear"
 
 alias k="kubectl"
