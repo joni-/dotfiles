@@ -43,6 +43,9 @@ ln -sf $WORKING_DIR/fish/functions  ~/.config/fish/functions
 if test -f "$WORKING_DIR/fish/config.local.fish"; then
     ln -sf $WORKING_DIR/fish/config.local.fish  ~/.config/fish/config.local.fish
 fi
+if test -d "$WORKING_DIR/fish/functions.local"; then
+    ln -sf $WORKING_DIR/fish/functions.local  ~/.config/fish/functions.local
+fi
 ln -sf $WORKING_DIR/tmux/.tmux.conf  ~/.tmux.conf
 ln -sf $WORKING_DIR/.psqlrc  ~/.psqlrc
 

@@ -33,3 +33,9 @@ end
 if test -e ~/.config/fish/config.local.fish
     . ~/.config/fish/config.local.fish
 end
+
+if test -e ~/.config/fish/functions.local
+    for fn_file in ~/.config/fish/functions.local/*.fish
+        . $fn_file
+    end
+end
