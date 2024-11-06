@@ -39,6 +39,7 @@ mkdir -p ~/.config/fish
 ln -sf $WORKING_DIR/vim/.vimrc ~/.vimrc
 ln -sf $WORKING_DIR/fish/aliases.fish  ~/.config/fish/aliases.fish
 ln -sf $WORKING_DIR/fish/config.fish  ~/.config/fish/config.fish
+ln -sf $WORKING_DIR/fish/functions  ~/.config/fish/functions
 if test -f "$WORKING_DIR/fish/config.local.fish"; then
     ln -sf $WORKING_DIR/fish/config.local.fish  ~/.config/fish/config.local.fish
 fi
