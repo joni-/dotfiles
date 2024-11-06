@@ -1,5 +1,9 @@
 . ~/.config/fish/aliases.fish
 
+for fn_file in ~/.config/fish/functions/*.fish
+    . $fn_file
+end
+
 fish_add_path $HOME/.local/bin/
 fish_add_path /usr/local/opt/libpq/bin/
 fish_add_path $HOME/.cargo/bin
