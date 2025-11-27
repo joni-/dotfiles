@@ -22,3 +22,5 @@ alias gp="git-preview"
 alias c="clear"
 
 alias k="kubectl"
+
+alias tmux-copy-history='tmux capture-pane -S - -E - -p | awk '\''NF{last=NR} {lines[NR]=$0} END{for(i=1;i<=last;i++) print lines[i]}'\'' | pbcopy'
